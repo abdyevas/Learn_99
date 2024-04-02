@@ -1,25 +1,10 @@
-fetch('names.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log('JSON data:', data);
-        
-        var namesEn = data.map(obj => obj.en);
-        var namesAr = data.map(obj => obj.ar);
-
-        var randomInx = Math.floor(Math.random() * namesEn.length);
-        var randomNameEn = namesEn[randomInx];
-        var randomNameAr = namesAr[randomInx];
-
-        var frontText = document.getElementById('front-text');
-        frontText.textContent = randomNameEn;
-        frontText.setAttribute('data-translation', randomNameAr);
-    })
-    .catch(error => console.error('Error loading JSON:', error));
+const data = [
+    {"en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "means": "The All-Compassionate"},
+    {"en": "AR-RAHEEM", "ar": "ٱلْرَّحِيْمُ", "means": "The All-Merciful"},
+    {"en": "AL-MALIK", "ar": "ٱلْمَلِكُ", "means": "The King and Owner of Dominion"},
+    {"en": "AL-QUDDUS", "ar": "ٱلْقُدُّوسُ", "means": "The Absolutely Pure"},
+    {"en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "means": "The Source of Peace"}
+];
 
 function flipCard() {
     var card = document.getElementById('card');
@@ -42,3 +27,14 @@ function flipCard() {
         }
     }, 100);
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const randomInx = Math.floor(Math.random() * data.length);
+    const randomItem = data[randomInx];
+    const frontText = document.getElementById('front-text');
+    
+    frontText.textContent = randomItem.en;
+    frontText.setAttribute('data-translation', randomItem.ar);
+    frontText.setAttribute('data-name', randomItem.en);
+
+})
