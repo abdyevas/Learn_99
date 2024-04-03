@@ -13,8 +13,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 100px !important;
+    }
 }
 
 .card {
@@ -81,4 +91,9 @@ body {
     background-color: rgb(204, 204, 242);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border: 2px solid rgb(36, 36, 94);
-}rgb(74, 74, 122)
+}
+
+.option.disabled:hover {
+    background-color: lavender;
+    border: 2px solid white;
+}

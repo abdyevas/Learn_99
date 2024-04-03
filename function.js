@@ -6,6 +6,9 @@ const data = [
     { "en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "meaning": "The Source of Peace" }
 ];
 
+let optionDisabled = false;
+let correctOption = null;
+
 function flipCard() {
     var card = document.getElementById('card');
     var frontCard = document.getElementById('front-card');
@@ -53,6 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
         optionElement.textContent = option.meaning;
         optionElement.classList.add('option');
         optionElement.setAttribute('data-correct', option === randomItem ? 'true' : 'false');
+        if (option === randomItem) {
+            correctOption = optionElement;
+        }
         optionElement.onclick = checkOption;
         optionsContainer.appendChild(optionElement);
     });
@@ -75,11 +81,24 @@ function shuffleOptions(container) {
 }
 
 function checkOption(event) {
+    if(optionDisabled) return;
+
     const selectedOption = event.target;
     const isCorrect = selectedOption.getAttribute('data-correct') === 'true';
     if (isCorrect) {
-        alert('Correct')
+        correctOption.style.backgroundColor = '#99dea7';
     } else {
-        alert('NOOO');
+        selectedOption.style.backgroundColor = '#de7e7e';
+        correctOption.style.backgroundColor = '#99dea7';
     }
+    disableOptions();
+}
+
+function disableOptions() {
+    optionDisabled = true;
+    const options = document.querySelectorAll('.option');
+    options.forEach(option => {
+        option.onclick = null;
+        option.classList.add('disabled');
+    });
 }
