@@ -9,12 +9,17 @@ body {
     font-weight: bolder;
 }
 
+.all {
+    display: block;
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -96,4 +101,22 @@ body {
 .option.disabled:hover {
     background-color: lavender;
     border: 2px solid white;
+}
+
+.btn {
+    width: 100px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(183, 183, 219);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: rgb(36, 36, 94);
+}
+
+.btn:hover {
+    background-color: rgb(221, 221, 244);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
