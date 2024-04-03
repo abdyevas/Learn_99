@@ -8,30 +8,39 @@ const data = [
 
 let optionDisabled = false;
 let correctOption = null;
+let started = false;
 let currentIndex = 0;
+var correctCount = 0;
 
 document.addEventListener("DOMContentLoaded", initializeApp);
 
 function initializeApp() {
     const buttonElement = document.getElementById('btn');
-    
+
     buttonElement.addEventListener('click', () => {
 
-        if (currentIndex != 0) {
+        if (started) {
             buttonElement.textContent = 'Next';
         }
-        
+
         if (currentIndex === data.length) {
-            buttonElement.textContent = 'The End';
+            summaryMessage = document.getElementById('final-result');
+            summaryMessage.textContent = `${correctCount}/${data.length} correct!`;
+            document.getElementById('btn').textContent = 'The End';
+            document.getElementById('btn').disabled = true;
+            disableOptions();
+
             return;
         }
+        currentIndex++;
     });
-    
+
 }
 
 function showNextCard() {
     optionDisabled = false;
     correctOption = null;
+    started = true;
 
     if (currentIndex === data.length) {
         return;
@@ -48,21 +57,20 @@ function showNextCard() {
     randomItem.displayed = true;
 
     const currentCard = data[randomIndex];
-    
-    currentIndex++;
-    
+
+
     const frontText = document.getElementById('front-text');
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
-    
+
     frontText.textContent = currentCard.en;
     frontText.setAttribute('data-translation', currentCard.ar);
     frontText.setAttribute('data-name', currentCard.en);
-    
+
     const incorrectOptions = [...data];
     incorrectOptions.splice(randomIndex, 1);
     const randomIncorrectOptions = shuffleArray(incorrectOptions).slice(0, 3);
-    
+
     const allOptions = [currentCard].concat(randomIncorrectOptions);
     allOptions.forEach(option => {
         const optionElement = document.createElement('div');
@@ -75,7 +83,7 @@ function showNextCard() {
         optionElement.onclick = checkOption;
         optionsContainer.appendChild(optionElement);
     });
-    
+
     shuffleOptions(optionsContainer);
 }
 
@@ -131,15 +139,16 @@ function shuffleOptions(container) {
 }
 
 function checkOption(event) {
-    if(optionDisabled) return;
+    if (optionDisabled) return;
 
     const selectedOption = event.target;
     const isCorrect = selectedOption.getAttribute('data-correct') === 'true';
     if (isCorrect) {
-        correctOption.style.backgroundColor = '#99dea7';
+        correctOption.style.backgroundColor = '#77bd8d';
+        correctCount++;
     } else {
         selectedOption.style.backgroundColor = '#de7e7e';
-        correctOption.style.backgroundColor = '#99dea7';
+        correctOption.style.backgroundColor = '#77bd8d';
     }
     disableOptions();
 }

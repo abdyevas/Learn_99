@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #abc7d1;
+    background-color: #abd1b9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,25 +55,20 @@ body {
     justify-content: center;
     align-items: center;
     backface-visibility: hidden;
-    background-color: white;
+    background-color: rgb(242, 255, 243);
     box-sizing: border-box;
-    border: 10px solid white;
-    box-shadow: inset 0px 0px 0px 3px lavender;
-}
-
-.card span {
-    font-size: 24px;
-    color: #333;
+    border: 10px solid rgb(242, 255, 243);
+    box-shadow: inset 0px 0px 0px 3px rgb(127, 178, 130);
 }
 
 .front-card.flipped {
-    background-color: lavender;
-    border: 10px solid lavender;
-    box-shadow: inset 0px 0px 0px 3px white;
+    background-color: rgb(127, 178, 130);
+    border: 10px solid rgb(127, 178, 130);
+    box-shadow: inset 0px 0px 0px 3px rgb(242, 255, 243);
 }
 
 #front-text {
-    color: rgb(36, 36, 94);
+    color: rgb(44, 44, 114);
     font-size: 25px;
 }
 
@@ -81,42 +76,48 @@ body {
     width: 300px;
     height: 20px;
     margin: 17px;
-    background-color: lavender;
-    color: rgb(36, 36, 94);
+    background-color: rgb(242, 255, 243);
+    color: rgb(44, 44, 114);
     padding-left: 20px !important;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(127, 178, 130);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .option:hover {
-    background-color: rgb(204, 204, 242);
+    background-color: rgb(183, 228, 186);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: 2px solid rgb(36, 36, 94);
+    border: 2px solid rgb(44, 44, 114);
 }
 
 .option.disabled:hover {
-    background-color: lavender;
-    border: 2px solid white;
+    background-color: rgb(242, 255, 243);
+    border: 2px solid rgb(127, 178, 130);
 }
 
 .btn {
     width: 150px;
-    background-color: whitesmoke;
+    background-color: rgb(242, 255, 243);
     cursor: pointer;
     padding: 10px 20px;
     margin-top: 30px;
     border-radius: 8px;
-    border: 2px solid rgb(183, 183, 219);
+    border: 2px solid rgb(127, 178, 130);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
-    color: rgb(36, 36, 94);
+    color: rgb(44, 44, 114);
 }
 
 .btn:hover {
-    background-color: rgb(221, 221, 244);
+    background-color: rgb(183, 228, 186);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#final-result {
+    color: rgb(30, 111, 73);
+    font-size: 30px;
+    font-weight: bolder;
 }
