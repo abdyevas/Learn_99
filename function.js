@@ -8,6 +8,76 @@ const data = [
 
 let optionDisabled = false;
 let correctOption = null;
+let currentIndex = 0;
+
+document.addEventListener("DOMContentLoaded", initializeApp);
+
+function initializeApp() {
+    const buttonElement = document.getElementById('btn');
+    
+    buttonElement.addEventListener('click', () => {
+
+        if (currentIndex != 0) {
+            buttonElement.textContent = 'Next';
+        }
+        
+        if (currentIndex === data.length) {
+            buttonElement.textContent = 'The End';
+            return;
+        }
+    });
+    
+}
+
+function showNextCard() {
+    optionDisabled = false;
+    correctOption = null;
+
+    if (currentIndex === data.length) {
+        return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * data.length);
+    const randomItem = data[randomIndex];
+
+    if (randomItem.displayed) {
+        showNextCard();
+        return;
+    }
+
+    randomItem.displayed = true;
+
+    const currentCard = data[randomIndex];
+    
+    currentIndex++;
+    
+    const frontText = document.getElementById('front-text');
+    const optionsContainer = document.getElementById('options');
+    optionsContainer.innerHTML = '';
+    
+    frontText.textContent = currentCard.en;
+    frontText.setAttribute('data-translation', currentCard.ar);
+    frontText.setAttribute('data-name', currentCard.en);
+    
+    const incorrectOptions = [...data];
+    incorrectOptions.splice(randomIndex, 1);
+    const randomIncorrectOptions = shuffleArray(incorrectOptions).slice(0, 3);
+    
+    const allOptions = [currentCard].concat(randomIncorrectOptions);
+    allOptions.forEach(option => {
+        const optionElement = document.createElement('div');
+        optionElement.textContent = option.meaning;
+        optionElement.classList.add('option');
+        optionElement.setAttribute('data-correct', option === randomItem ? 'true' : 'false');
+        if (option === randomItem) {
+            correctOption = optionElement;
+        }
+        optionElement.onclick = checkOption;
+        optionsContainer.appendChild(optionElement);
+    });
+    
+    shuffleOptions(optionsContainer);
+}
 
 function flipCard() {
     var card = document.getElementById('card');
@@ -23,49 +93,27 @@ function flipCard() {
 
     setTimeout(function () {
         if (rotation === 'none' || rotation === 'matrix(1, 0, 0, 1, 0, 0)') {
+            if (currentIndex === 0) {
+                frontText.textContent = '99 Names';
+                frontText.style.transform = 'scaleY(-1)';
+                return;
+            }
             frontText.textContent = frontText.getAttribute('data-translation');
             frontText.style.transform = 'scaleY(-1)';
             frontText.style.fontSize = '40px';
             frontCard.classList.add('flipped');
         } else {
+            if (currentIndex === 0) {
+                frontText.textContent = 'Welcome!';
+                frontText.style.transform = 'none';
+                return;
+            }
             frontText.textContent = frontText.getAttribute('data-name');
             frontText.style.transform = 'none';
             frontText.style.fontSize = '25px';
             frontCard.classList.remove('flipped');
         }
     }, 100);
-}
-
-document.addEventListener("DOMContentLoaded", initializeApp);
-
-function initializeApp() {
-    const randomIndex = Math.floor(Math.random() * data.length);
-    const randomItem = data[randomIndex];
-    const frontText = document.getElementById('front-text');
-    const optionsContainer = document.getElementById('options');
-
-    frontText.textContent = randomItem.en;
-    frontText.setAttribute('data-translation', randomItem.ar);
-    frontText.setAttribute('data-name', randomItem.en);
-
-    const incorrectOptions = [...data];
-    incorrectOptions.splice(randomIndex, 1);
-    const randomIncorrectOptions = shuffleArray(incorrectOptions).slice(0, 3);
-
-    const allOptions = [randomItem].concat(randomIncorrectOptions);
-    allOptions.forEach(option => {
-        const optionElement = document.createElement('div');
-        optionElement.textContent = option.meaning;
-        optionElement.classList.add('option');
-        optionElement.setAttribute('data-correct', option === randomItem ? 'true' : 'false');
-        if (option === randomItem) {
-            correctOption = optionElement;
-        }
-        optionElement.onclick = checkOption;
-        optionsContainer.appendChild(optionElement);
-    });
-
-    shuffleOptions(optionsContainer);
 }
 
 function shuffleArray(array) {
