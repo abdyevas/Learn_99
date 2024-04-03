@@ -6,6 +6,15 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
 }
 
 .card {
@@ -34,7 +43,7 @@ body {
     background-color: white;
     box-sizing: border-box;
     border: 10px solid white;
-    box-shadow:inset 0px 0px 0px 3px lavender;
+    box-shadow: inset 0px 0px 0px 3px lavender;
 }
 
 .card span {
@@ -45,11 +54,31 @@ body {
 .front-card.flipped {
     background-color: lavender;
     border: 10px solid lavender;
-    box-shadow:inset 0px 0px 0px 3px white;
+    box-shadow: inset 0px 0px 0px 3px white;
 }
 
 #front-text {
     color: rgb(36, 36, 94);
-    font-weight: bold;
     font-size: 25px;
 }
+
+.option {
+    width: 300px;
+    height: 20px;
+    margin: 17px;
+    background-color: lavender;
+    color: rgb(36, 36, 94);
+    padding-left: 20px !important;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.option:hover {
+    background-color: rgb(204, 204, 242);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(36, 36, 94);
+}rgb(74, 74, 122)

@@ -1,9 +1,9 @@
 const data = [
-    {"en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "means": "The All-Compassionate"},
-    {"en": "AR-RAHEEM", "ar": "ٱلْرَّحِيْمُ", "means": "The All-Merciful"},
-    {"en": "AL-MALIK", "ar": "ٱلْمَلِكُ", "means": "The King and Owner of Dominion"},
-    {"en": "AL-QUDDUS", "ar": "ٱلْقُدُّوسُ", "means": "The Absolutely Pure"},
-    {"en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "means": "The Source of Peace"}
+    { "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "meaning": "The All-Compassionate" },
+    { "en": "AR-RAHEEM", "ar": "ٱلْرَّحِيْمُ", "meaning": "The All-Merciful" },
+    { "en": "AL-MALIK", "ar": "ٱلْمَلِكُ", "meaning": "The King and Owner of Dominion" },
+    { "en": "AL-QUDDUS", "ar": "ٱلْقُدُّوسُ", "meaning": "The Absolutely Pure" },
+    { "en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "meaning": "The Source of Peace" }
 ];
 
 function flipCard() {
@@ -18,7 +18,7 @@ function flipCard() {
         card.style.transform = 'rotateX(0deg)';
     }
 
-    setTimeout(function() {
+    setTimeout(function () {
         if (rotation === 'none' || rotation === 'matrix(1, 0, 0, 1, 0, 0)') {
             frontText.textContent = frontText.getAttribute('data-translation');
             frontText.style.transform = 'scaleY(-1)';
@@ -33,13 +33,53 @@ function flipCard() {
     }, 100);
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const randomInx = Math.floor(Math.random() * data.length);
-    const randomItem = data[randomInx];
+document.addEventListener("DOMContentLoaded", function () {
+    const randomIndex = Math.floor(Math.random() * data.length);
+    const randomItem = data[randomIndex];
     const frontText = document.getElementById('front-text');
-    
+    const optionsContainer = document.getElementById('options');
+
     frontText.textContent = randomItem.en;
     frontText.setAttribute('data-translation', randomItem.ar);
     frontText.setAttribute('data-name', randomItem.en);
 
-})
+    const incorrectOptions = [...data];
+    incorrectOptions.splice(randomIndex, 1);
+    const randomIncorrectOptions = shuffleArray(incorrectOptions).slice(0, 3);
+
+    const allOptions = [randomItem].concat(randomIncorrectOptions);
+    allOptions.forEach(option => {
+        const optionElement = document.createElement('div');
+        optionElement.textContent = option.meaning;
+        optionElement.classList.add('option');
+        optionElement.setAttribute('data-correct', option === randomItem ? 'true' : 'false');
+        optionElement.onclick = checkOption;
+        optionsContainer.appendChild(optionElement);
+    });
+
+    shuffleOptions(optionsContainer);
+});
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i < 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function shuffleOptions(container) {
+    for (let i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
+
+function checkOption(event) {
+    const selectedOption = event.target;
+    const isCorrect = selectedOption.getAttribute('data-correct') === 'true';
+    if (isCorrect) {
+        alert('Correct')
+    } else {
+        alert('NOOO');
+    }
+}
