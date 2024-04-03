@@ -1,9 +1,33 @@
-const data = [
-    { "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "meaning": "The All-Compassionate" },
+const data = [ { "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "meaning": "The All-Compassionate" },
     { "en": "AR-RAHEEM", "ar": "ٱلْرَّحِيْمُ", "meaning": "The All-Merciful" },
     { "en": "AL-MALIK", "ar": "ٱلْمَلِكُ", "meaning": "The King and Owner of Dominion" },
     { "en": "AL-QUDDUS", "ar": "ٱلْقُدُّوسُ", "meaning": "The Absolutely Pure" },
-    { "en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "meaning": "The Source of Peace" }
+    { "en": "AS-SALAM", "ar": "ٱلْسَّلَامُ", "meaning": "The Source of Peace" },
+    { "en": "AL-MU'MIN", "ar": "لْمُؤْمِنُ", "meaning": "The Inspirer of Faith" },
+    { "en": "AL-MUHAYMIN", "ar": "ٱلْمُهَيْمِنُ", "meaning": "The Guardian, The Witness" },
+    { "en": "AL-AZEEZ", "ar": "ٱلْعَزِيزُ", "meaning": "The All Mighty" },
+    { "en": "AL-JABBAR", "ar": "ٱلْجَبَّارُ", "meaning": "The Compeller, The Restorer" },
+    { "en": "AL-MUTAKABBIR", "ar": "ٱلْمُتَكَبِّرُ", "meaning": "The Supreme, The Majestic" },
+    { "en": "AL-KHAALIQ", "ar": "ٱلْخَالِقُ", "meaning": "The Creator, The Maker" },
+    { "en": "AL-BAARI'", "ar": "ٱلْبَارِئُ", "meaning": "The Originator" },
+    { "en": "AL-MUSAWWIR", "ar": "ٱلْمُصَوِّرُ", "meaning": "The Fashioner" },
+    { "en": "AL-GHAFFAR", "ar": "ٱلْغَفَّارُ", "meaning": "The All- and Oft-Forgiving" },
+    { "en": "AL-QAHHAR", "ar": "ٱلْقَهَّارُ", "meaning": "The Subduer, The Ever-Dominating" },
+    { "en": "AL-WAHHAAB", "ar": "ٱلْوَهَّابُ", "meaning": "The Giver of Gifts" },
+    { "en": "AR-RAZZAAQ", "ar": "ٱلْرَّزَّاقُ", "meaning": "The Provider" },
+    { "en": "AL-FATTAAH", "ar": "ٱلْفَتَّاحُ", "meaning": "The Opener, The Judge" },
+    { "en": "AL-'ALEEM", "ar": "ٱلْعَلِيمُ", "meaning": "The All-Knowing, The Omniscient" },
+    { "en": "AL-QAABID", "ar": "ٱلْقَابِضُ", "meaning": "The Withholder. The Constructor" },
+    { "en": "AL-BAASIT", "ar": "ٱلْبَاسِطُ", "meaning": "The Extender. The Reliever" },
+    { "en": "AL-KHAAFIDH", "ar": "ٱلْخَافِضُ", "meaning": "The Reducer, The Abaser" },
+    { "en": "AR-RAAFI'", "ar": "ٱلْرَّافِعُ", "meaning": "The Exalter, The Elevator" },
+    { "en": "AL-MU'IZZ", "ar": "ٱلْمُعِزُّ", "meaning": "The Honourer, The Bestower" },
+    { "en": "AL-MUZIL", "ar": "ٱلْمُذِلُّ", "meaning": "The Dishonourer, The Humiliator" },
+    { "en": "AS-SAMEE'", "ar": "ٱلْسَّمِيعُ", "meaning": "The All-Hearing" },
+    { "en": "AL-BASEER", "ar": "ٱلْبَصِيرُ", "meaning": "The All-Seeing" },
+    { "en": "AL-HAKAM", "ar": "ٱلْحَكَمُ", "meaning": "The Judge, The Giver of Justice" },
+    { "en": "AL-'ADL", "ar": "ٱلْعَدْلُ", "meaning": "The Utterly Just" },
+    { "en": "AL-LATEEF", "ar": "ٱلْلَّطِيفُ", "meaning": "The Subtle One, The Most Gentle" }
 ];
 
 let optionDisabled = false;
@@ -144,11 +168,11 @@ function checkOption(event) {
     const selectedOption = event.target;
     const isCorrect = selectedOption.getAttribute('data-correct') === 'true';
     if (isCorrect) {
-        correctOption.style.backgroundColor = '#77bd8d';
+        correctOption.style.backgroundColor = '#9edba2';
         correctCount++;
     } else {
-        selectedOption.style.backgroundColor = '#de7e7e';
-        correctOption.style.backgroundColor = '#77bd8d';
+        selectedOption.style.backgroundColor = '#e69393';
+        correctOption.style.backgroundColor = '#9edba2';
     }
     disableOptions();
 }
