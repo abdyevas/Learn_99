@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #abc7d1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,10 @@ body {
 }
 
 .card {
-    width: 300px;
-    height: 200px;
-    background-color: #fff;
-    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease;
     cursor: pointer;
@@ -27,14 +27,29 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    border-radius: 10px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     backface-visibility: hidden;
     background-color: white;
+    box-sizing: border-box;
+    border: 10px solid white;
+    box-shadow:inset 0px 0px 0px 3px lavender;
 }
 
 .card span {
     font-size: 24px;
     color: #333;
+}
+
+.front-card.flipped {
+    background-color: lavender;
+    border: 10px solid lavender;
+    box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#front-text {
+    color: rgb(36, 36, 94);
+    font-weight: bold;
+    font-size: 25px;
 }

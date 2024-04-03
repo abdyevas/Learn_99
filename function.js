@@ -8,6 +8,7 @@ const data = [
 
 function flipCard() {
     var card = document.getElementById('card');
+    var frontCard = document.getElementById('front-card');
     var rotation = getComputedStyle(card).getPropertyValue('transform');
     var frontText = document.getElementById('front-text');
 
@@ -21,9 +22,13 @@ function flipCard() {
         if (rotation === 'none' || rotation === 'matrix(1, 0, 0, 1, 0, 0)') {
             frontText.textContent = frontText.getAttribute('data-translation');
             frontText.style.transform = 'scaleY(-1)';
+            frontText.style.fontSize = '40px';
+            frontCard.classList.add('flipped');
         } else {
             frontText.textContent = frontText.getAttribute('data-name');
             frontText.style.transform = 'none';
+            frontText.style.fontSize = '25px';
+            frontCard.classList.remove('flipped');
         }
     }, 100);
 }
