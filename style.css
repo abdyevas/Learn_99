@@ -121,3 +121,8 @@ body {
     font-size: 30px;
     font-weight: bolder;
 }
+
+#counter {
+    color: rgb(242, 255, 243);
+    font-weight: bolder;
+}
