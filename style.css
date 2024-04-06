@@ -126,3 +126,38 @@ body {
     color: rgb(242, 255, 243);
     font-weight: bolder;
 }
+
+.language-selection {
+    color: rgb(30, 111, 73);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.language-selection input[type="radio"] {
+    display: none; 
+}
+.language-selection label {
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 23px;
+}
+
+.language-selection label:before {
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(44, 44, 114);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.language-selection input[type="radio"]:checked + label:before {
+    background-color: rgb(30, 111, 73);
+}

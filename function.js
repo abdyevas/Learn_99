@@ -110,8 +110,10 @@ document.addEventListener("DOMContentLoaded", initializeApp);
 function initializeApp() {
     const buttonElement = document.getElementById('btn');
     const counterElement = document.getElementById('counter');
+    const languageSelection = document.getElementById('language-selection');
 
     buttonElement.addEventListener('click', () => {
+        languageSelection.style.display = 'none';
 
         if (started) {
             buttonElement.textContent = 'Next';
