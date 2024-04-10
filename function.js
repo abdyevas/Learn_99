@@ -254,7 +254,7 @@ function showNextCard() {
     randomItem.displayed = true;
 
     const currentCard = data[randomIndex];
-
+    const currentCardAze = data_aze[randomIndex];
 
 
     const frontText = document.getElementById('front-text');
@@ -264,6 +264,8 @@ function showNextCard() {
     frontText.textContent = currentCard.en;
     frontText.setAttribute('data-translation', currentCard.ar);
     frontText.setAttribute('data-name', currentCard.en);
+    frontText.setAttribute('data-aze', currentCardAze.aze);
+    frontText.setAttribute('data-meaning-aze', currentCardAze.meaning_aze);
 
     const incorrectOptions = [...data];
     incorrectOptions.splice(randomIndex, 1);
