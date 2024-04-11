@@ -243,6 +243,8 @@ function showNextCard() {
         return;
     }
 
+    const selectedLanguage = document.querySelector('input[name="language"]:checked');
+
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomItem = data[randomIndex];
 
