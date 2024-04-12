@@ -253,6 +253,12 @@ function showNextCard() {
         return;
     }
 
+    if (selectedLanguage) {
+
+    } else {
+        
+    }
+
     randomItem.displayed = true;
 
     const currentCard = data[randomIndex];
