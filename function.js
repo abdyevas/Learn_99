@@ -1,4 +1,4 @@
-const data = [{ "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "meaning": "The All-Compassionate" },
+const data_en = [{ "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "meaning": "The All-Compassionate" },
 { "en": "AR-RAHEEM", "ar": "ٱلْرَّحِيْمُ", "meaning": "The All-Merciful" },
 { "en": "AL-MALIK", "ar": "ٱلْمَلِكُ", "meaning": "The King and Owner of Dominion" },
 { "en": "AL-QUDDUS", "ar": "ٱلْقُدُّوسُ", "meaning": "The Absolutely Pure" },
@@ -214,9 +214,16 @@ function initializeApp() {
 
     buttonElement.addEventListener('click', () => {
         languageSelection.style.display = 'none';
+        const selectedLanguage = document.querySelector('input[name="language"]:checked');
 
         if (started) {
             buttonElement.textContent = 'Next';
+        }
+
+        if (selectedLanguage) {
+            data = data_en;
+        } else {
+            data = data_aze;
         }
 
         if (currentIndex === data.length) {
@@ -243,7 +250,6 @@ function showNextCard() {
         return;
     }
 
-    const selectedLanguage = document.querySelector('input[name="language"]:checked');
 
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomItem = data[randomIndex];
@@ -251,12 +257,6 @@ function showNextCard() {
     if (randomItem.displayed) {
         showNextCard();
         return;
-    }
-
-    if (selectedLanguage) {
-
-    } else {
-        
     }
 
     randomItem.displayed = true;
