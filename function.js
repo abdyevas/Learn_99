@@ -250,7 +250,6 @@ function showNextCard() {
         return;
     }
 
-
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomItem = data[randomIndex];
 
