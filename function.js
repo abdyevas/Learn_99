@@ -96,8 +96,8 @@ const data_en = [{ "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "me
 { "en": "AL-BAAQI", "ar": "ٱلْبَاقِي", "meaning": "The Ever-Surviving, The Everlasting" },
 { "en": "AL-WAARITH", "ar": "ٱلْوَارِثُ", "meaning": "The Inheritor of All" },
 { "en": "AR-RASHEED", "ar": "ٱلْرَّشِيدُ", "meaning": "The Guide, Infallible Teacher" },
-{ "en": "AS-SABOOR", "ar": "ٱلْصَّبُورُ", "meaning": "The Forbearing, The Patient" }
-];
+{ "en": "AS-SABOOR", "ar": "ٱلْصَّبُورُ", "meaning": "The Forbearing, The Patient" }]
+
 const data_aze = [{ "aze": "ər-Rəhman", "meaning_aze": "Mərhəmətli" },
 { "aze": "ər-Rəhim", "meaning_aze": "Rəhimli" },
 { "aze": "əl-Məlik", "meaning_aze": "Ali hökmdar" },
@@ -220,7 +220,7 @@ function initializeApp() {
             buttonElement.textContent = 'Next';
         }
 
-        if (selectedLanguage) {
+        if (selectedLanguage == 'eng') {
             data = data_en;
         } else {
             data = data_aze;
