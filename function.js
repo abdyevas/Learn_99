@@ -268,14 +268,14 @@ function showNextCard() {
 
     if (selectedLanguage == 'eng') {
         frontText.textContent = currentCard.en;
+        frontText.setAttribute('data-name', currentCard.en);
     } else {
         frontText.textContent = currentCard.aze;
+        frontText.setAttribute('data-name', currentCard.aze);
     }
 
     frontText.setAttribute('data-translation', currentCard.ar);
-    frontText.setAttribute('data-name', currentCard.en);
-    frontText.setAttribute('data-aze', currentCardAze.aze);
-    frontText.setAttribute('data-meaning-aze', currentCardAze.meaning_aze);
+    frontText.setAttribute('data-meaning', currentCardAze.meaning);
 
     const incorrectOptions = [...data];
     incorrectOptions.splice(randomIndex, 1);
