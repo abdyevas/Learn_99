@@ -261,14 +261,17 @@ function showNextCard() {
     randomItem.displayed = true;
 
     const currentCard = data[randomIndex];
-    const currentCardAze = data_aze[randomIndex];
-
 
     const frontText = document.getElementById('front-text');
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
 
-    frontText.textContent = currentCard.en;
+    if (selectedLanguage == 'eng') {
+        frontText.textContent = currentCard.en;
+    } else {
+        frontText.textContent = currentCard.aze;
+    }
+
     frontText.setAttribute('data-translation', currentCard.ar);
     frontText.setAttribute('data-name', currentCard.en);
     frontText.setAttribute('data-aze', currentCardAze.aze);
