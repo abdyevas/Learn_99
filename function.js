@@ -220,9 +220,11 @@ function initializeApp() {
             buttonElement.textContent = 'Next';
         }
 
-        if (selectedLanguage == 'eng') {
+        if (selectedLanguage) {
+            console.log('eng');
             data = data_en;
         } else {
+            console.log('aze');
             data = data_aze;
         }
 
@@ -245,6 +247,15 @@ function showNextCard() {
     optionDisabled = false;
     correctOption = null;
     started = true;
+    const selectedLanguage = document.querySelector('input[name="language"]:checked');
+
+    if (selectedLanguage) {
+        console.log('eng');
+        data = data_en;
+    } else {
+        console.log('aze');
+        data = data_aze;
+    }
 
     if (currentIndex === data.length) {
         return;
@@ -275,7 +286,7 @@ function showNextCard() {
     }
 
     frontText.setAttribute('data-translation', currentCard.ar);
-    frontText.setAttribute('data-meaning', currentCardAze.meaning);
+    frontText.setAttribute('data-meaning', currentCard.meaning);
 
     const incorrectOptions = [...data];
     incorrectOptions.splice(randomIndex, 1);
