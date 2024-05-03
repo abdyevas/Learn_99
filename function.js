@@ -221,10 +221,8 @@ function initializeApp() {
         }
 
         if (selectedLanguage.value === 'eng') {
-            console.log('eng');
             data = data_en;
         } else {
-            console.log('aze');
             data = data_aze;
         }
 
@@ -249,7 +247,7 @@ function showNextCard() {
     started = true;
     const selectedLanguage = document.querySelector('input[name="language"]:checked');
 
-    if (selectedLanguage) {
+    if (selectedLanguage.value === 'eng') {
         data = data_en;
     } else {
         data = data_aze;
