@@ -273,7 +273,7 @@ function showNextCard() {
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
 
-    if (selectedLanguage == 'eng') {
+    if (selectedLanguage.value === 'eng') {
         frontText.textContent = currentCard.en;
         frontText.setAttribute('data-name', currentCard.en);
     } else {
