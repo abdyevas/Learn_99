@@ -220,7 +220,7 @@ function initializeApp() {
             buttonElement.textContent = 'Next';
         }
 
-        if (selectedLanguage) {
+        if (selectedLanguage.value === 'eng') {
             console.log('eng');
             data = data_en;
         } else {
