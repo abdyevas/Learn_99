@@ -98,4 +98,4 @@ const data_en = [{ "en": "AR-RAHMAAN", "ar": "ٱلْرَّحْمَـانُ", "me
 { "en": "AR-RASHEED", "ar": "ٱلْرَّشِيدُ", "meaning": "The Guide, Infallible Teacher" },
 { "en": "AS-SABOOR", "ar": "ٱلْصَّبُورُ", "meaning": "The Forbearing, The Patient" }];
 
-module.exports = data_en;
+export { data_en };

@@ -1,4 +1,4 @@
-const data_en = require('./data_en.js');
+import { data_en } from "./data_eng.mjs";
 
 const data_aze = [{ "aze": "Ər-Rəhman", "meaning": "Çox Mərhəmətli" },
 { "aze": "Ər-Rəhim", "meaning": "Həmişə Mərhəmətli. Rəhimli" },
