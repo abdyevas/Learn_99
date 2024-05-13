@@ -1,7 +1,18 @@
-import { data_en } from "./data_eng.mjs";
-import { data_aze } from "./data_aze.mjs";
+// import { data_en } from "./data_eng.mjs";
+// import { data_aze } from "./data_aze.mjs";
 
+const dataFile = 'data_en.json';
 
+async function fetchData() {
+    try {
+        const response = await fetch(dataFile);
+        const data_en = await response.json();
+        return data_en;
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        return null;
+    }
+}
 let optionDisabled = false;
 let correctOption = null;
 let started = false;
