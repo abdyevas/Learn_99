@@ -1,18 +1,18 @@
-// import { data_en } from "./data_eng.mjs";
-// import { data_aze } from "./data_aze.mjs";
-
 const dataFile = 'data_en.json';
 
 async function fetchData() {
     try {
         const response = await fetch(dataFile);
         const data_en = await response.json();
+        console.log(data_en)
         return data_en;
     } catch (error) {
+        console.log('lox')
         console.error('Error fetching data:', error);
         return null;
     }
 }
+fetchData()
 let optionDisabled = false;
 let correctOption = null;
 let started = false;
