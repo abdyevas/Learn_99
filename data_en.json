@@ -1,33 +1,45 @@
 [
     {
         "en": "AR-RAHMAAN",
+        "az": "Ər-Rəhman",
         "ar": "ٱلْرَّحْمَـانُ",
-        "meaning": "The All-Compassionate"
+        "meaning_en": "The All-Compassionate",
+        "meaning_az": "Çox Mərhəmətli"
     },
     {
         "en": "AR-RAHEEM",
+        "az": "Ər-Rəhim",
         "ar": "ٱلْرَّحِيْمُ",
-        "meaning": "The All-Merciful"
+        "meaning_en": "The All-Merciful",       
+        "meaning_az": "Həmişə Mərhəmətli. Rəhimli"
     },
     {
         "en": "AL-MALIK",
+        "az": "Əl-Məlik",
         "ar": "ٱلْمَلِكُ",
-        "meaning": "The King and Owner of Dominion"
+        "meaning_en": "The King and Owner of Dominion",
+        "meaning_az": "Ali Hökmdar"
     },
     {
         "en": "AL-QUDDUS",
+        "az": "Əl-Qüddus",
         "ar": "ٱلْقُدُّوسُ",
-        "meaning": "The Absolutely Pure"
+        "meaning_en": "The Absolutely Pure",
+        "meaning_az": "Müqəddəs"
     },
     {
         "en": "AS-SALAM",
+        "az": "Əs-Salam",
         "ar": "ٱلْسَّلَامُ",
-        "meaning": "The Source of Peace"
+        "meaning_en": "The Source of Peace",
+        "meaning_az": "Pak. Əmin-amanlıq verən"
     },
     {
         "en": "AL-MU'MIN",
+        "az": "Əl-Mömin",
         "ar": "لْمُؤْمِنُ",
-        "meaning": "The Inspirer of Faith"
+        "meaning_en": "The Inspirer of Faith",
+        "meaning_az": "İman bəxş edən (İman bəslənilən)"
     },
     {
         "en": "AL-MUHAYMIN",

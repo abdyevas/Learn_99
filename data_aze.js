@@ -1,10 +1,5 @@
 const data_aze = [
-{ "aze": "Ər-Rəhman", "meaning": "Çox Mərhəmətli" },
-{ "aze": "Ər-Rəhim", "meaning": "Həmişə Mərhəmətli. Rəhimli" },
-{ "aze": "Əl-Məlik", "meaning": "Ali hökmdar" },
-{ "aze": "Əl-Qüddus", "meaning": "Müqəddəs" },
-{ "aze": "Əs-Salam", "meaning": "Pak. Əmin-amanlıq verən" },
-{ "aze": "Əl-Mömin", "meaning": "İman bəxş edən (İman bəslənilən)" },
+
 { "aze": "Əl-Mühəymin", "meaning": "Mühafizəçi. Himayə edən" },
 { "aze": "Əl-Əziz", "meaning": "Əzəmətli. Çox İzzətli" },
 { "aze": "Əl-Cabbar", "meaning": "Qüdrətli. Zalımlara əziyyət verən" },
