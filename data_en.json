@@ -1,509 +1,695 @@
 [
     {
         "en": "AR-RAHMAAN",
-        "az": "Ər-Rəhman",
+        "aze": "Ər-Rəhman",
         "ar": "ٱلْرَّحْمَـانُ",
-        "meaning_en": "The All-Compassionate",
-        "meaning_az": "Çox Mərhəmətli"
+        "meaning": "The All-Compassionate",
+        "meaning_aze": "Çox Mərhəmətli"
     },
     {
         "en": "AR-RAHEEM",
-        "az": "Ər-Rəhim",
+        "aze": "Ər-Rəhim",
         "ar": "ٱلْرَّحِيْمُ",
-        "meaning_en": "The All-Merciful",       
-        "meaning_az": "Həmişə Mərhəmətli. Rəhimli"
+        "meaning": "The All-Merciful",       
+        "meaning_aze": "Həmişə Mərhəmətli. Rəhimli"
     },
     {
         "en": "AL-MALIK",
-        "az": "Əl-Məlik",
+        "aze": "Əl-Məlik",
         "ar": "ٱلْمَلِكُ",
-        "meaning_en": "The King and Owner of Dominion",
-        "meaning_az": "Ali Hökmdar"
+        "meaning": "The King and Owner of Dominion",
+        "meaning_aze": "Ali Hökmdar"
     },
     {
         "en": "AL-QUDDUS",
-        "az": "Əl-Qüddus",
+        "aze": "Əl-Qüddus",
         "ar": "ٱلْقُدُّوسُ",
-        "meaning_en": "The Absolutely Pure",
-        "meaning_az": "Müqəddəs"
+        "meaning": "The Absolutely Pure",
+        "meaning_aze": "Müqəddəs"
     },
     {
         "en": "AS-SALAM",
-        "az": "Əs-Salam",
+        "aze": "Əs-Salam",
         "ar": "ٱلْسَّلَامُ",
-        "meaning_en": "The Source of Peace",
-        "meaning_az": "Pak. Əmin-amanlıq verən"
+        "meaning": "The Source of Peace",
+        "meaning_aze": "Pak. Əmin-amanlıq verən"
     },
     {
         "en": "AL-MU'MIN",
-        "az": "Əl-Mömin",
+        "aze": "Əl-Mömin",
         "ar": "لْمُؤْمِنُ",
-        "meaning_en": "The Inspirer of Faith",
-        "meaning_az": "İman bəxş edən (İman bəslənilən)"
+        "meaning": "The Inspirer of Faith",
+        "meaning_aze": "İman bəxş edən (İman bəslənilən)"
     },
     {
         "en": "AL-MUHAYMIN",
+        "aze": "Əl-Mühəymin",
         "ar": "ٱلْمُهَيْمِنُ",
-        "meaning": "The Guardian, The Witness"
+        "meaning": "The Guardian, The Witness",
+        "meaning_aze": "Mühafizəçi. Himayə edən"
     },
     {
         "en": "AL-AZEEZ",
+        "aze": "Əl-Əziz",
         "ar": "ٱلْعَزِيزُ",
-        "meaning": "The All Mighty"
+        "meaning": "The All Mighty",
+        "meaning_aze": "Əzəmətli. Çox İzzətli" 
     },
     {
         "en": "AL-JABBAR",
+        "aze": "Əl-Cabbar",
         "ar": "ٱلْجَبَّارُ",
-        "meaning": "The Compeller, The Restorer"
+        "meaning": "The Compeller, The Restorer",
+        "meaning_aze": "Qüdrətli. Zalımlara əziyyət verən"
     },
     {
         "en": "AL-MUTAKABBIR",
+        "aze": "Əl-Mütəkəbbir",
         "ar": "ٱلْمُتَكَبِّرُ",
-        "meaning": "The Supreme, The Majestic"
+        "meaning": "The Supreme, The Majestic",
+        "meaning_aze": "Məqamı uca tutulan, böyüdülən"
     },
     {
         "en": "AL-KHAALIQ",
+        "aze": "Əl-Xaliq",
         "ar": "ٱلْخَالِقُ",
-        "meaning": "The Creator, The Maker"
+        "meaning": "The Creator, The Maker",
+        "meaning_aze": "Yaradıcı"
     },
     {
         "en": "AL-BAARI'",
+        "aze": "Əl-Bari",
         "ar": "ٱلْبَارِئُ",
-        "meaning": "The Originator"
+        "meaning": "The Originator",
+        "meaning_aze": "Heçdən yaradan"
     },
     {
         "en": "AL-MUSAWWIR",
+        "aze": "Əl-Müsavvir",
         "ar": "ٱلْمُصَوِّرُ",
-        "meaning": "The Fashioner"
+        "meaning": "The Fashioner",
+        "meaning_aze": "Surət verən"
     },
     {
         "en": "AL-GHAFFAR",
+        "aze": "Əl-Ğaffər",
         "ar": "ٱلْغَفَّارُ",
-        "meaning": "The All- and Oft-Forgiving"
+        "meaning": "The All- and Oft-Forgiving",
+        "meaning_aze": "Hər şeyi bağışlayan"
     },
     {
         "en": "AL-QAHHAR",
+        "aze": "Əl-Qahhar",
         "ar": "ٱلْقَهَّارُ",
-        "meaning": "The Subduer, The Ever-Dominating"
+        "meaning": "The Subduer, The Ever-Dominating",
+        "meaning_aze": "Hakimi-mütləq" 
     },
     {
         "en": "AL-WAHHAAB",
+        "aze": "Əl-Vahhab",
         "ar": "ٱلْوَهَّابُ",
-        "meaning": "The Giver of Gifts"
+        "meaning": "The Giver of Gifts",
+        "meaning_aze": "Səxavətli"
     },
     {
         "en": "AR-RAZZAAQ",
+        "aze": "Ər-Razzaq",
         "ar": "ٱلْرَّزَّاقُ",
-        "meaning": "The Provider"
+        "meaning": "The Provider",
+
     },
     {
         "en": "AL-FATTAAH",
+        
         "ar": "ٱلْفَتَّاحُ",
-        "meaning": "The Opener, The Judge"
+        "meaning": "The Opener, The Judge",
+    
     },
     {
         "en": "AL-'ALEEM",
+
         "ar": "ٱلْعَلِيمُ",
-        "meaning": "The All-Knowing, The Omniscient"
+        "meaning": "The All-Knowing, The Omniscient",
+    
     },
     {
         "en": "AL-QAABID",
+
         "ar": "ٱلْقَابِضُ",
-        "meaning": "The Withholder. The Constructor"
+        "meaning": "The Withholder. The Constructor",
+
     },
     {
         "en": "AL-BAASIT",
+
         "ar": "ٱلْبَاسِطُ",
-        "meaning": "The Extender. The Reliever"
+        "meaning": "The Extender. The Reliever",
+
     },
     {
         "en": "AL-KHAAFIDH",
+
         "ar": "ٱلْخَافِضُ",
-        "meaning": "The Reducer, The Abaser"
+        "meaning": "The Reducer, The Abaser",
+
     },
     {
         "en": "AR-RAAFI'",
+
         "ar": "ٱلْرَّافِعُ",
-        "meaning": "The Exalter, The Elevator"
+        "meaning": "The Exalter, The Elevator",
+
     },
     {
         "en": "AL-MU'IZZ",
+        
         "ar": "ٱلْمُعِزُّ",
-        "meaning": "The Honourer, The Bestower"
+        "meaning": "The Honourer, The Bestower",
+
     },
     {
         "en": "AL-MUZIL",
+
         "ar": "ٱلْمُذِلُّ",
-        "meaning": "The Dishonourer, The Humiliator"
+        "meaning": "The Dishonourer, The Humiliator",
+
     },
     {
         "en": "AS-SAMEE'",
+
         "ar": "ٱلْسَّمِيعُ",
-        "meaning": "The All-Hearing"
+        "meaning": "The All-Hearing",
+
     },
     {
         "en": "AL-BASEER",
+
         "ar": "ٱلْبَصِيرُ",
-        "meaning": "The All-Seeing"
+        "meaning": "The All-Seeing",
+
     },
     {
         "en": "AL-HAKAM",
+
         "ar": "ٱلْحَكَمُ",
-        "meaning": "The Judge, The Giver of Justice"
+        "meaning": "The Judge, The Giver of Justice",
+
     },
     {
         "en": "AL-'ADL",
+
         "ar": "ٱلْعَدْلُ",
-        "meaning": "The Utterly Just"
+        "meaning": "The Utterly Just",
+
     },
     {
         "en": "AL-LATEEF",
+
         "ar": "ٱلْلَّطِيفُ",
-        "meaning": "The Subtle One, The Most Gentle"
+        "meaning": "The Subtle One, The Most Gentle",
+
     },
     {
         "en": "AL-KHABEER",
+
         "ar": "ٱلْخَبِيرُ",
-        "meaning": "The Acquainted, The All-Aware"
+        "meaning": "The Acquainted, The All-Aware",
+
     },
     {
         "en": "AL-HALEEM",
+
         "ar": "ٱلْحَلِيمُ",
-        "meaning": "The Most Forbearing"
+        "meaning": "The Most Forbearing",
+
     },
     {
         "en": "AL-'ATHEEM",
+
         "ar": "ٱلْعَظِيمُ",
-        "meaning": "The Magnificent, The Supreme"
+        "meaning": "The Magnificent, The Supreme",
+
     },
     {
         "en": "AL-GHAFOOR",
+
         "ar": "ٱلْغَفُورُ",
-        "meaning": "The Exceedingly Forgiving"
+        "meaning": "The Exceedingly Forgiving",
+
     },
     {
         "en": "ASH-SHAKOOR",
+
         "ar": "ٱلْشَّكُورُ",
-        "meaning": "The Most Appreciative"
+        "meaning": "The Most Appreciative",
+
     },
     {
         "en": "AL-'ALEE",
+
         "ar": "ٱلْعَلِيُّ",
-        "meaning": "The Most High, The Exalted"
+        "meaning": "The Most High, The Exalted",
+
     },
     {
         "en": "AL-KABEER",
+
         "ar": "ٱلْكَبِيرُ",
-        "meaning": "The Greatest, The Most Grand"
+        "meaning": "The Greatest, The Most Grand",
+
     },
     {
         "en": "AL-HAFEEDH",
+
         "ar": "ٱلْحَفِيظُ",
-        "meaning": "The Preserver, The All-Protecting"
+        "meaning": "The Preserver, The All-Protecting",
+
     },
     {
         "en": "AL-MUQEET",
+
         "ar": "ٱلْمُقِيتُ",
-        "meaning": "The Sustainer"
+        "meaning": "The Sustainer",
+
     },
     {
         "en": "AL-HASEEB",
+
         "ar": "ٱلْحَسِيبُ",
-        "meaning": "The Accounter, The Sufficient"
+        "meaning": "The Accounter, The Sufficient",
+
     },
     {
         "en": "AL-JALEEL",
+
         "ar": "ٱلْجَلِيلُ",
-        "meaning": "The Majestic, The Mighty"
+        "meaning": "The Majestic, The Mighty",
+
     },
     {
         "en": "AL-KAREEM",
+
         "ar": "ٱلْكَرِيمُ",
-        "meaning": "The Most Generous"
+        "meaning": "The Most Generous",
+
     },
     {
         "en": "AR-RAQEEB",
+
         "ar": "ٱلْرَّقِيبُ",
-        "meaning": "The Watchful One"
+        "meaning": "The Watchful One",
+
     },
     {
         "en": "AL-MUJEEB",
+
         "ar": "ٱلْمُجِيبُ",
-        "meaning": "The Responsive One"
+        "meaning": "The Responsive One",
+
     },
     {
         "en": "AL-WAASI'",
+
         "ar": "ٱلْوَاسِعُ",
-        "meaning": "The All-Comprehending"
+        "meaning": "The All-Comprehending",
+
     },
     {
         "en": "AL-HAKEEM",
+
         "ar": "ٱلْحَكِيمُ",
-        "meaning": "The All-Wise"
+        "meaning": "The All-Wise",
+
     },
     {
         "en": "AL-WADOOD",
+
         "ar": "ٱلْوَدُودُ",
-        "meaning": "The Most Loving"
+        "meaning": "The Most Loving",
+
     },
     {
         "en": "AL-MAJEED",
+
         "ar": "ٱلْمَجِيدُ",
-        "meaning": "The Glorious, The Most Honorable"
+        "meaning": "The Glorious, The Most Honorable",
+
     },
     {
         "en": "AL-BA'ITH",
+
         "ar": "ٱلْبَاعِثُ",
-        "meaning": "The Raiser of the Dead"
+        "meaning": "The Raiser of the Dead",
+
     },
     {
         "en": "ASH-SHAHEED",
+
         "ar": "ٱلْشَّهِيدُ",
-        "meaning": "The All- and Ever Witnessing"
+        "meaning": "The All- and Ever Witnessing",
+
     },
     {
         "en": "AL-HAQQ",
+
         "ar": "ٱلْحَقُّ",
-        "meaning": "The Absolute Truth"
+        "meaning": "The Absolute Truth",
+
     },
     {
         "en": "AL-WAKEEL",
+
         "ar": "ٱلْوَكِيلُ",
-        "meaning": "The Trustee, The Disposer of Affairs"
+        "meaning": "The Trustee, The Disposer of Affairs",
+
     },
     {
         "en": "AL-QAWIYY",
+
         "ar": "ٱلْقَوِيُّ",
-        "meaning": "The All-Strong"
+        "meaning": "The All-Strong",
+
     },
     {
         "en": "AL-MATEEN",
+
         "ar": "ٱلْمَتِينُ",
-        "meaning": "The Forceful One, The Steadfast"
+        "meaning": "The Forceful One, The Steadfast",
+
     },
     {
         "en": "AL-WALIYY",
+
         "ar": "ٱلْوَلِيُّ",
-        "meaning": "The Protecting Associate"
+        "meaning": "The Protecting Associate",
+
     },
     {
         "en": "AL-HAMEED",
+
         "ar": "ٱلْحَمِيدُ",
-        "meaning": "The Praiseworthy"
+        "meaning": "The Praiseworthy",
+
     },
     {
         "en": "AL-MUHSEE",
+
         "ar": "ٱلْمُحْصِيُ",
-        "meaning": "The Appraiser, The Counter"
+        "meaning": "The Appraiser, The Counter",
+        
     },
     {
         "en": "AL-MUBDI",
+
         "ar": "ٱلْمُبْدِئُ",
-        "meaning": "The Originator, The Initiator"
+        "meaning": "The Originator, The Initiator",
+
     },
     {
         "en": "AL-MU'ID",
+
         "ar": "ٱلْمُعِيدُ",
-        "meaning": "The Restorer, The Reinstater"
+        "meaning": "The Restorer, The Reinstater",
+
     },
     {
         "en": "AL-MUHYEE",
+
         "ar": "ٱلْمُحْيِى",
-        "meaning": "The Giver of Life"
+        "meaning": "The Giver of Life",
+
     },
     {
         "en": "AL-MUMEET",
+
         "ar": "ٱلْمُمِيتُ",
-        "meaning": "The Bringer of Death, the Destroyer"
+        "meaning": "The Bringer of Death, the Destroyer",
+
     },
     {
         "en": "AL-HAYY",
+
         "ar": "ٱلْحَىُّ",
-        "meaning": "The Ever-Living One"
+        "meaning": "The Ever-Living One",
+
     },
     {
         "en": "AL-QAYYOOM",
+
         "ar": "ٱلْقَيُّومُ",
-        "meaning": "The Self-Existing One"
+        "meaning": "The Self-Existing One",
+
     },
     {
         "en": "AL-WAAJID",
+
         "ar": "ٱلْوَاجِدُ",
-        "meaning": "The Perceiver. The Finder"
+        "meaning": "The Perceiver. The Finder",
+
     },
     {
         "en": "AL-MAAJID",
+
         "ar": "ٱلْمَاجِدُ",
-        "meaning": "The Illustrious, the Magnificent"
+        "meaning": "The Illustrious, the Magnificent",
+
     },
     {
         "en": "AL-WAAHID",
+
         "ar": "ٱلْوَاحِدُ",
-        "meaning": "The One, The All Inclusive"
+        "meaning": "The One, The All Inclusive",
+
     },
     {
         "en": "AL-AHAD",
+
         "ar": "ٱلْأَحَد",
-        "meaning": "The Unique, The Only One"
+        "meaning": "The Unique, The Only One",
+        
     },
     {
         "en": "AS-SAMAD",
+
         "ar": "ٱلْصَّمَدُ",
-        "meaning": "The Eternal, Satisfier of Needs"
+        "meaning": "The Eternal, Satisfier of Needs".
+
     },
     {
         "en": "AL-QADIR",
+
         "ar": "ٱلْقَادِرُ",
-        "meaning": "The Capable, The Powerful"
+        "meaning": "The Capable, The Powerful",
+
     },
     {
         "en": "AL-MUQTADIR",
+
         "ar": "ٱلْمُقْتَدِرُ",
-        "meaning": "The Creator of All Power"
+        "meaning": "The Creator of All Power",
+
     },
     {
         "en": "AL-MUQADDIM",
+
         "ar": "ٱلْمُقَدِّمُ",
-        "meaning": "The Expediter, The Promoter"
+        "meaning": "The Expediter, The Promoter",
+
     },
     {
         "en": "AL-MU'AKHKHIR",
+
         "ar": "ٱلْمُؤَخِّرُ",
-        "meaning": "The Delayer, the Retarder"
+        "meaning": "The Delayer, the Retarder",
+        
     },
     {
         "en": "AL-AWWAL",
+
         "ar": "ٱلأَوَّلُ",
-        "meaning": "The First"
+        "meaning": "The First",
+
     },
     {
         "en": "AL-AAKHIR",
+
         "ar": "ٱلْآخِرُ",
-        "meaning": "The Last"
+        "meaning": "The Last",
+
     },
     {
         "en": "AZ-DHAAHIR",
+
         "ar": "ٱلْظَّاهِرُ",
-        "meaning": "The Manifest One"
+        "meaning": "The Manifest One",
+
     },
     {
         "en": "AL-BAATIN",
+
         "ar": "ٱلْبَاطِنُ",
-        "meaning": "The Hidden One, Knower of the Hidden"
+        "meaning": "The Hidden One, Knower of the Hidden",
+
     },
     {
         "en": "AL-WAALI",
+
         "ar": "ٱلْوَالِي",
-        "meaning": "The Protecting Friend"
+        "meaning": "The Protecting Friend",
+
     },
     {
         "en": "AL-MUTA'ALI",
+
         "ar": "ٱلْمُتَعَالِي",
-        "meaning": "The Self Exalted"
+        "meaning": "The Self Exalted",
+
     },
     {
         "en": "AL-BARR",
+
         "ar": "ٱلْبَرُّ",
-        "meaning": "The Source of Goodness"
+        "meaning": "The Source of Goodness",
+
     },
     {
         "en": "AT-TAWWAB",
+
         "ar": "ٱلْتَّوَّابُ",
-        "meaning": "The Ever-Pardoning, The Relenting"
+        "meaning": "The Ever-Pardoning, The Relenting",
+
     },
     {
         "en": "AL-MUNTAQIM",
+
         "ar": "ٱلْمُنْتَقِمُ",
-        "meaning": "The Avenger"
+        "meaning": "The Avenger",
+
     },
     {
         "en": "AL-'AFUWW",
+
         "ar": "ٱلْعَفُوُّ",
-        "meaning": "The Pardoner. The Forgiver"
+        "meaning": "The Pardoner. The Forgiver",
+
     },
     {
         "en": "AR-RA'OOF",
+
         "ar": "ٱلْرَّؤُفُ",
-        "meaning": "The Most Kind. The Clement"
+        "meaning": "The Most Kind. The Clement",
+
     },
     {
         "en": "MAALIK-UL-MULK",
+
         "ar": "مَالِكُ ٱلْمُلْكُ",
-        "meaning": "The Owner of All"
+        "meaning": "The Owner of All",
+
     },
     {
         "en": "DHUL-JALAALI WAL-IKRAAM",
+
         "ar": "ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ",
-        "meaning": "The Lord of Majesty and Bounty"
+        "meaning": "The Lord of Majesty and Bounty",
+
     },
     {
         "en": "AL-MUQSIT",
+
         "ar": "ٱلْمُقْسِطُ",
-        "meaning": "The Equitable, the Requiter"
+        "meaning": "The Equitable, the Requiter",
+
     },
     {
         "en": "AL-JAAMI'",
+
         "ar": "ٱلْجَامِعُ",
-        "meaning": "The Gatherer, the Uniter"
+        "meaning": "The Gatherer, the Uniter",
+
     },
     {
         "en": "AL-GHANIYY",
+
         "ar": "ٱلْغَنيُّ",
-        "meaning": "The Self-Sufficient, The Wealthy"
+        "meaning": "The Self-Sufficient, The Wealthy",
+
     },
     {
         "en": "AL-MUGHNI",
+
         "ar": "ٱلْمُغْنِيُّ",
-        "meaning": "The Enricher"
+        "meaning": "The Enricher",
+
     },
     {
         "en": "AL-MANI'",
+
         "ar": "ٱلْمَانِعُ",
-        "meaning": "The Preventer of Harm"
+        "meaning": "The Preventer of Harm",
+        
     },
     {
         "en": "AD-DHARR",
+
         "ar": "ٱلْضَّارُ",
-        "meaning": "The Balancer, The Punisher"
+        "meaning": "The Balancer, The Punisher",
+
     },
     {
         "en": "AN-NAFI'",
+
         "ar": "ٱلْنَّافِعُ",
-        "meaning": "The Creator of Good"
+        "meaning": "The Creator of Good",
+
     },
     {
         "en": "AN-NUR",
+
         "ar": "ٱلْنُّورُ",
-        "meaning": "The Light, The Illuminator"
+        "meaning": "The Light, The Illuminator",
+
     },
     {
         "en": "AL-HAADI",
+
         "ar": "ٱلْهَادِي",
-        "meaning": "The Guide"
+        "meaning": "The Guide",
+
     },
     {
         "en": "AL-BADEE'",
+
         "ar": "ٱلْبَدِيعُ",
-        "meaning": "The Incomparable Originator"
+        "meaning": "The Incomparable Originator",
+
     },
     {
         "en": "AL-BAAQI",
+
         "ar": "ٱلْبَاقِي",
-        "meaning": "The Ever-Surviving, The Everlasting"
+        "meaning": "The Ever-Surviving, The Everlasting",
+
     },
     {
         "en": "AL-WAARITH",
+
         "ar": "ٱلْوَارِثُ",
-        "meaning": "The Inheritor of All"
+        "meaning": "The Inheritor of All",
+
     },
     {
         "en": "AR-RASHEED",
+
         "ar": "ٱلْرَّشِيدُ",
-        "meaning": "The Guide, Infallible Teacher"
+        "meaning": "The Guide, Infallible Teacher",
+
     },
     {
         "en": "AS-SABOOR",
+
         "ar": "ٱلْصَّبُورُ",
-        "meaning": "The Forbearing, The Patient"
+        "meaning": "The Forbearing, The Patient",
+
     }
 ]
