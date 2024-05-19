@@ -13,6 +13,7 @@ async function fetchData() {
     }
 }
 fetchData()
+
 let optionDisabled = false;
 let correctOption = null;
 let started = false;
@@ -32,12 +33,6 @@ function initializeApp() {
 
         if (started) {
             buttonElement.textContent = 'Next';
-        }
-
-        if (selectedLanguage.value === 'eng') {
-            data = data_en;
-        } else {
-            data = data_aze;
         }
 
         if (currentIndex === data.length) {
@@ -60,12 +55,6 @@ function showNextCard() {
     correctOption = null;
     started = true;
     const selectedLanguage = document.querySelector('input[name="language"]:checked');
-
-    if (selectedLanguage.value === 'eng') {
-        data = data_en;
-    } else {
-        data = data_aze;
-    }
 
     if (currentIndex === data.length) {
         return;
