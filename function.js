@@ -85,7 +85,12 @@ function showNextCard() {
     }
 
     frontText.setAttribute('data-translation', currentCard.ar);
-    frontText.setAttribute('data-meaning', currentCard.meaning);
+
+    if (selectedLanguage.value === 'eng') {
+        frontText.setAttribute('data-meaning', currentCard.meaning);
+    } else {    
+        frontText.setAttribute('data-meaning', currentCard.meaning_aze);
+    }
 
     const incorrectOptions = [...data];
     incorrectOptions.splice(randomIndex, 1);
