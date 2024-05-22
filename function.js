@@ -712,12 +712,20 @@ function initializeApp() {
         const selectedLanguage = document.querySelector('input[name="language"]:checked');
 
         if (started) {
-            buttonElement.textContent = 'Next';
+            if (selectedLanguage.value === 'eng') {
+                buttonElement.textContent = 'Next';
+            } else {
+                buttonElement.textContent = 'Növbəti';
+            }
         }
 
         if (currentIndex === data.length) {
             summaryMessage = document.getElementById('final-result');
-            summaryMessage.textContent = `${correctCount}/${data.length} correct!`;
+            if (selectedLanguage.value === 'eng') {
+                summaryMessage.textContent = `${correctCount}/${data.length} correct!`;
+            } else {
+                summaryMessage.textContent = `${correctCount}/${data.length} düzgün!`;
+            }
             document.getElementById('btn').textContent = 'The End';
             document.getElementById('btn').disabled = true;
             disableOptions();
@@ -725,7 +733,11 @@ function initializeApp() {
             return;
         }
         currentIndex++;
-        counterElement.textContent = `Question ${currentIndex}/${data.length}`;
+        if (selectedLanguage.value === 'eng') {
+            counterElement.textContent = `Question ${currentIndex}/${data.length}`;
+        } else {
+            counterElement.textContent = `Sual ${currentIndex}/${data.length}`;
+        }
     });
 
 }
