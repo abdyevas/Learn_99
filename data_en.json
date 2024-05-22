@@ -10,7 +10,7 @@
         "en": "AR-RAHEEM",
         "aze": "Ər-Rəhim",
         "ar": "ٱلْرَّحِيْمُ",
-        "meaning": "The All-Merciful",       
+        "meaning": "The All-Merciful",
         "meaning_aze": "Həmişə Mərhəmətli. Rəhimli"
     },
     {
@@ -53,7 +53,7 @@
         "aze": "Əl-Əziz",
         "ar": "ٱلْعَزِيزُ",
         "meaning": "The All Mighty",
-        "meaning_aze": "Əzəmətli. Çox İzzətli" 
+        "meaning_aze": "Əzəmətli. Çox İzzətli"
     },
     {
         "en": "AL-JABBAR",
@@ -102,7 +102,7 @@
         "aze": "Əl-Qəhhar",
         "ar": "ٱلْقَهَّارُ",
         "meaning": "The Subduer, The Ever-Dominating",
-        "meaning_aze": "Hakimi-mütləq" 
+        "meaning_aze": "Hakimi-mütləq"
     },
     {
         "en": "AL-WAHHAAB",
@@ -193,7 +193,7 @@
         "aze": "Əl-Həkəm",
         "ar": "ٱلْحَكَمُ",
         "meaning": "The Judge, The Giver of Justice",
-        "meaning_aze": "Hakim" 
+        "meaning_aze": "Hakim"
     },
     {
         "en": "AL-'ADL",
@@ -228,7 +228,7 @@
         "aze": "Əl-Əzim",
         "ar": "ٱلْعَظِيمُ",
         "meaning": "The Magnificent, The Supreme",
-        "meaning_aze": "Böyüklükdə bənzəri olmayan. Çox Uca" 
+        "meaning_aze": "Böyüklükdə bənzəri olmayan. Çox Uca"
     },
     {
         "en": "AL-GHAFOOR",
@@ -242,7 +242,7 @@
         "aze": "Əş-Şəkur",
         "ar": "ٱلْشَّكُورُ",
         "meaning": "The Most Appreciative",
-        "meaning_aze": "Mükafatlandıran" 
+        "meaning_aze": "Mükafatlandıran"
     },
     {
         "en": "AL-'ALEE",
@@ -298,7 +298,7 @@
         "aze": "Ər-Raqib",
         "ar": "ٱلْرَّقِيبُ",
         "meaning": "The Watchful One",
-        "meaning_aze": "Nəzarətçi. Keşikçi" 
+        "meaning_aze": "Nəzarətçi. Keşikçi"
     },
     {
         "en": "AL-MUJEEB",
@@ -333,7 +333,7 @@
         "aze": "Əl-Məcid",
         "ar": "ٱلْمَجِيدُ",
         "meaning": "The Glorious, The Most Honorable",
-        "meaning_aze": "Şanlı" 
+        "meaning_aze": "Şanlı"
     },
     {
         "en": "AL-BA'ITH",
@@ -396,7 +396,7 @@
         "aze": "Əl-Muhsi",
         "ar": "ٱلْمُحْصِيُ",
         "meaning": "The Appraiser, The Counter",
-        "meaning_aze": "Yaratdığı və yaradacağı bütün varlıqların sayını bilən"
+        "meaning_aze": "Bütün varlıqların sayını bilən"
     },
     {
         "en": "AL-MUBDI",
@@ -431,11 +431,11 @@
         "aze": "Əl-Hayy",
         "ar": "ٱلْحَىُّ",
         "meaning": "The Ever-Living One",
-        "meaning_aze": "Daima diri olan" 
+        "meaning_aze": "Daima diri olan"
     },
     {
         "en": "AL-QAYYOOM",
-        "aze": "Əl-Qəyyum", 
+        "aze": "Əl-Qəyyum",
         "ar": "ٱلْقَيُّومُ",
         "meaning": "The Self-Existing One",
         "meaning_aze": "Müstəqil"
@@ -459,7 +459,7 @@
         "aze": "Əl-Vahid",
         "ar": "ٱلْوَاحِدُ",
         "meaning": "The One, The All Inclusive",
-        "meaning_aze": "Tək olan. Yeganə" 
+        "meaning_aze": "Tək olan. Yeganə"
     },
     {
         "en": "AL-AHAD",
@@ -501,21 +501,21 @@
         "aze": "Əl-Muəxxir",
         "ar": "ٱلْمُؤَخِّرُ",
         "meaning": "The Delayer, the Retarder",
-        "meaning_aze": "Təxirə salan" 
+        "meaning_aze": "Təxirə salan"
     },
     {
         "en": "AL-AWWAL",
         "aze": "Əl-Əvvəl",
         "ar": "ٱلأَوَّلُ",
         "meaning": "The First",
-        "meaning_aze": "Hər şeydən əvvəl mövcud olmuş" 
+        "meaning_aze": "Hər şeydən əvvəl mövcud olmuş"
     },
     {
         "en": "AL-AAKHIR",
         "aze": "Əl-Axir",
         "ar": "ٱلْآخِرُ",
         "meaning": "The Last",
-        "meaning_aze": "Hər şeydən sonda mövcud olan" 
+        "meaning_aze": "Hər şeydən sonda mövcud olan"
     },
     {
         "en": "AZ-DHAAHIR",
@@ -557,7 +557,7 @@
         "aze": "Ət-Təvvab",
         "ar": "ٱلْتَّوَّابُ",
         "meaning": "The Ever-Pardoning, The Relenting",
-        "meaning_aze": "Tövbələri qəbul edib, günahları bağışlayan"
+        "meaning_aze": "Tövbələri qəbul edən. Bağışlayan"
     },
     {
         "en": "AL-MUNTAQIM",
@@ -571,7 +571,7 @@
         "aze": "Əl-Əfüvv",
         "ar": "ٱلْعَفُوُّ",
         "meaning": "The Pardoner. The Forgiver",
-        "meaning_aze": "Əfv edən. Bağışlayan" 
+        "meaning_aze": "Əfv edən. Bağışlayan"
     },
     {
         "en": "AR-RA'OOF",
@@ -599,7 +599,7 @@
         "aze": "Əl-Muksit",
         "ar": "ٱلْمُقْسِطُ",
         "meaning": "The Equitable, the Requiter",
-        "meaning_aze": "Ədalətlə hökm edən, hər şeyi bir-birinə uyğun edən"
+        "meaning_aze": "Məzlumun haqqını alan. Ədalətlə hökm edən"
     },
     {
         "en": "AL-JAAMI'",
