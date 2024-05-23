@@ -137,7 +137,7 @@ const data = [
         "aze": "Əl-Qabid",
         "ar": "ٱلْقَابِضُ",
         "meaning": "The Withholder. The Constructor",
-        "meaning_aze": "Daraldan"
+        "meaning_aze": "Daraldan. Azaldan"
     },
     {
         "en": "AL-BAASIT",
@@ -235,7 +235,7 @@ const data = [
         "aze": "Əl-Ğafur",
         "ar": "ٱلْغَفُورُ",
         "meaning": "The Exceedingly Forgiving",
-        "meaning_aze": "Günahları Bağışlayan"
+        "meaning_aze": "Günahları Bağışlayan. Gizlədən"
     },
     {
         "en": "ASH-SHAKOOR",
