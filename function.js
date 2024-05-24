@@ -18,14 +18,14 @@ const data = [
         "aze": "Əl-Məlik",
         "ar": "ٱلْمَلِكُ",
         "meaning": "The King and Owner of Dominion",
-        "meaning_aze": "Ali Hökmdar"
+        "meaning_aze": "Mülk Sahibi. Ali Hökmdar"
     },
     {
         "en": "AL-QUDDUS",
         "aze": "Əl-Qüddus",
         "ar": "ٱلْقُدُّوسُ",
         "meaning": "The Absolutely Pure",
-        "meaning_aze": "Müqəddəs"
+        "meaning_aze": "Müqəddəs. Nöqsanlardan uzaq"
     },
     {
         "en": "AS-SALAM",
@@ -39,7 +39,7 @@ const data = [
         "aze": "Əl-Mömin",
         "ar": "لْمُؤْمِنُ",
         "meaning": "The Inspirer of Faith",
-        "meaning_aze": "İman bəxş edən (İman bəslənilən)"
+        "meaning_aze": "İman bəxş edən. Güvən verən"
     },
     {
         "en": "AL-MUHAYMIN",
